@@ -1,0 +1,40 @@
+﻿<Window x:Class="HesapMakinesi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HesapMakinesi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid>
+            <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="37,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn1_Click"/>
+            <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="143,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn2_Click"/>
+            <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="251,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn3_Click"/>
+            <Button x:Name="btnCarpma" Content="*" HorizontalAlignment="Left" Margin="376,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnCarpma_Click"/>
+            <Button x:Name="btnArti" Content="+" HorizontalAlignment="Left" Margin="489,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnArti_Click"/>
+            <Button x:Name="btnKarekok" Content="√" HorizontalAlignment="Left" Margin="589,125,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnKareKok_Click"/>
+
+        </Grid>
+        <Grid Margin="-10,0,0,-0.333" HorizontalAlignment="Left" Width="793">
+            <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="46,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn4_Click"/>
+            <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="152,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn5_Click"/>
+            <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="263,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn6_Click"/>
+            <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="46,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn7_Click"/>
+            <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="152,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn8_Click"/>
+            <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="263,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn9_Click"/>
+            <Button x:Name="btn6Bolme" Content="/" HorizontalAlignment="Left" Margin="390,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn6Bolme_Click"/>
+            <Button x:Name="btnCikarma" Content="-" HorizontalAlignment="Left" Margin="501,191,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnCikarma_Click"/>
+            <Button x:Name="btnEsittir" Content="=" HorizontalAlignment="Left" Margin="390,253,0,0" VerticalAlignment="Top" Width="186" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnEsittir_Click" Background="#FF716ADA" BorderBrush="#FFB42525"/>
+            <Button x:Name="btnC" Content="C" HorizontalAlignment="Left" Margin="390,316,0,0" VerticalAlignment="Top" Width="186" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnC_Click" Background="#FFE9913E"/>
+            <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="104,316,0,0" VerticalAlignment="Top" Width="186" RenderTransformOrigin="-1.108,0.788" Height="41" Click="Btn0_Click"/>
+            <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="42" Margin="46,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" HorizontalContentAlignment="Center" Text="0" FontSize="24"/>
+            <Button x:Name="btnCikarma_Copy" Content="&lt;--" HorizontalAlignment="Left" Margin="601,191,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnSil_Click" Background="#FFB929E0"/>
+
+        </Grid>
+        <Button x:Name="btnCikarma_Copy1" Content="%" HorizontalAlignment="Left" Margin="592,253,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnYuzde_Click"/>
+        <Button x:Name="btnCikarma_Copy2" Content="," HorizontalAlignment="Left" Margin="592,316,0,0" VerticalAlignment="Top" Width="78" RenderTransformOrigin="-1.108,0.788" Height="41" Click="BtnVirgul_Click"/>
+
+    </Grid>
+</Window>
